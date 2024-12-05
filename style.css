@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.title0 {
+    color: rgb(255, 255, 255); 
+    text-align: center;
+}
+.body0 {
+    background: linear-gradient(135deg,rgb(126, 209, 247), rgba(223, 244, 252, 0.884));
+    padding: 0px;
+    margin: 40px;
+}
+.container0 {
+    padding: 50px;
+    margin: 50px;
+    font-size: 25px;
+}
+.container0 h2 {
+    color: rgb(5, 62, 109);
+}
+.footer0 {
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(5, 62, 109);
+    color: rgb(255, 255, 255);
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px rgb(59, 61, 63);
+}
+.saibaMais0 {
+    font-size: 25px;
+    margin: 50px;
+    padding: 50px;
+}
+.navbar0{
+    justify-content: center;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.navbar0 li{
+    margin: 0 15px;    
+}
+.navbar0 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: color 0.6s ease;
+}
+.navbar0 a:hover {
+    color: rgb(0, 183, 255);
+}
+.nav0{
+    padding: 20px;
+    font-size: 60px;
+    margin: 40px;
+    box-shadow: 5px 5px 5px 0px rgb(59, 61, 63);
+    background-color: rgb(5, 62, 109);
+
+}
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#servicos ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    form input, form textarea, form button {
+        width: 100%;
+    }
+}
